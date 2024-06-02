@@ -1,0 +1,73 @@
+.App {
+	text-align: center;
+}
+
+.App-header {
+	background-color: #282c34;
+	/* min-height: 100vh; */
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	font-size: calc(10px + 2vmin);
+	color: white;
+}
+
+body {
+	align-items: center;
+	background-color: #767676;
+	display: flex;
+	justify-content: center;
+	height: 100vh;
+}
+
+div {
+	color: white;
+	font-size: 20px;
+	margin-bottom: 10px;
+}
+
+.form {
+	background-color: #15172b;
+	border-radius: 20px;
+	box-sizing: border-box;
+	height: 500px;
+	padding: 20px;
+	width: 320px;
+}
+
+.input {
+	background-color: #303245;
+	border-radius: 12px;
+	border: 0;
+	box-sizing: border-box;
+	color: #eee;
+	font-size: 18px;
+	height: 10%;
+	outline: 0;
+	padding: 4px 20px 0;
+	margin-bottom: 10px;
+	width: 100%;
+}
+
+.submit {
+	background-color: #08d;
+	border-radius: 12px;
+	border: 0;
+	box-sizing: border-box;
+	color: #eee;
+	cursor: pointer;
+	font-size: 18px;
+	height: 50px;
+	margin-top: 10px;
+	outline: 0;
+	text-align: center;
+	width: 100%;
+}
+
+button:disabled {
+	background-color: #767676;
+	color: #000000;
+	cursor: not-allowed;
+	border: none;
+}
